@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ashoka Library - Seat Management</title>
+    <link rel="stylesheet" href="library.css">
+    <script src="library.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>The Ashoka Library</h1>
+            <div class="auth">
+                <span id="userStatus">Guest</span>
+                <button id="loginBtn">Login</button>
+                <button id="logoutBtn" style="display: none;">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="loginSection" style="display: none;">
+            <h2>Admin Login</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="submitLogin">Login</button>
+            <p id="loginError" style="color: red;"></p>
+        </section>
+
+        <section id="seatManagement">
+            <h2>Seat Management</h2>
+            <div id="sections">
+                <div class="section" id="sectionA">
+                    <h3>Section A</h3>
+                    <div class="seats" id="seatsA"></div>
+                </div>
+                <div class="section" id="sectionB">
+                    <h3>Section B</h3>
+                    <div class="seats" id="seatsB"></div>
+                </div>
+                <div class="section" id="sectionC">
+                    <h3>Section C</h3>
+                    <div class="seats" id="seatsC"></div>
+                </div>
+                <div class="section" id="sectionD">
+                    <h3>Section D</h3>
+                    <div class="seats" id="seatsD"></div>
+                </div>
+            </div>
+            <button id="saveBtn" style="display: none;">Save Changes</button> <!-- Added Save button -->
+        </section>
+    </main>
+
+    <div class="footer-spacer"></div>
+
+    <footer>
+        <span>Address: Infront of Ashoka Garden Police Station</span>&nbsp;&nbsp; 
+        <span>Contact: 7648962676 | Time: 7 AM to 12 PM</span>&nbsp;&nbsp; &nbsp; &nbsp;
+        <span>Designed and Developed by: <a href="https://github.com/ReeshuShivhare" target="_blank">Reeshu Shivhare</a></span>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
