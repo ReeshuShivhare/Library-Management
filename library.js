@@ -7,8 +7,8 @@ let seats = {
 };
 
 let isAdmin = false;
-const adminUsernameEncoded = 'ODU5NjEy'; // Base64 for '859612'
-const adminPasswordEncoded = 'NDVAI1JhajY1'; // Base64 for '45@#Raj65';
+const adminUsernameEncoded = 'ODU5NjEy'; 
+const adminPasswordEncoded = 'NDVAI1JhajY1'; 
 
 // Load seats on page load
 document.addEventListener('DOMContentLoaded', () => {
